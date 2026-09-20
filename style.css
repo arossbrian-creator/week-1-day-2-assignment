@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.business-card {
+  /* Content is whatever is inside the div */
+  width: 400px;
+
+  /* Padding — space inside the box, around the content */
+  padding: 20px;
+
+  /* Border — the edge of the box */
+  border: 2px solid #006600;
+
+  /* Margin — space outside the box, pushing other elements away */
+  margin: 30px;
+
+  background-color: #f5f5f5;
+
+  text-align: center;
+
+  border-radius: 10px;
+}
+.business-card h1 {
+  font-size: 24px;
+  font-family: "Arial Black", sans-serif;
+  margin-bottom: 10px;
+}
+
+.business-card contact-info {
+  margin-top: 20px;
+  padding: 10px;
+}
+a {
+  color: #006600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #004d00;
+  transform: scale(1.05);
+}

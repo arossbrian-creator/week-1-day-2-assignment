@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px 24px;
+  width: 260px;
+  position: relative; /* so the badge can be positioned inside it */
+}
+
+/* Requirement 3: highlight Pro */
+.popular {
+  background-color: #e8f5e9;
+  border: 2px solid #006600;
+  transform: scale(1.05); /* slightly larger than its neighbours */
+}
+
+.badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #006600;
+  color: #fff;
+  font-size: 0.75em;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+/* Requirement 2: price with large font */
+.price {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: #006600;
+  margin: 10px 0;
+}
+
+.price span {
+  font-size: 0.4em;
+  color: #666;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none; /* removes the bullets */
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Requirement 4: styled button */
+button {
+  background-color: #006600;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #009900;
+}
